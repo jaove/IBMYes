@@ -41,7 +41,7 @@ try:
         
         lineStr='{\n'
         lineStr=lineStr+'  "v": "2",\n'
-        lineStr=lineStr+'  "ps": "ibmyes-'+str(t+1)+'",\n'
+        lineStr=lineStr+'  "ps": "ibmyes-other'+str(t+1)+'",\n'
         lineStr=lineStr+'  "add": "'+data[0]+'",\n'
         lineStr=lineStr+'  "port": "443",\n'
         lineStr=lineStr+'  "id": "ac9a9f82-4d88-44b0-8cbf-a53f79c02d19",\n'
