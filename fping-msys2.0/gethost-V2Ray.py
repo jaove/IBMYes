@@ -26,10 +26,10 @@ def ToFile(txt, file):
 
 
 t=0
-count = len(open('host-V2Ray.txt','r',encoding='UTF-8', errors='ignore').readlines())
+count = len(open('速度排名.txt','r',encoding='UTF-8', errors='ignore').readlines())
 # f = open('../gui-config.json','w')
 #f = open('Url_Vmess.txt','w',encoding='UTF-8', errors='ignore')
-file_object = open('host-V2Ray.txt','r',encoding='UTF-8', errors='ignore')
+file_object = open('速度排名.txt','r',encoding='UTF-8', errors='ignore')
 
 lineStr64=''
 try: 
@@ -40,43 +40,24 @@ try:
         
         lineStr='{\n'
         lineStr=lineStr+'  "v": "2",\n'
-        if (len(data)>1):
-            lineStr=lineStr+'  "ps": "'+data[1]+'",\n'
-        else:
-            lineStr=lineStr+'  "ps": "",\n'
-        if (len(data)>1):
-            lineStr=lineStr+'  "add": "'+data[1]+'",\n'
-        else:
-            lineStr=lineStr+'  "add": "",\n'
-        if (len(data)>2):
-            lineStr=lineStr+'  "port": "'+data[2]+'",\n'
-        else:
-            lineStr=lineStr+'  "port": "",\n'
-        if (len(data)>3):
-            lineStr=lineStr+'  "id": "'+data[3]+'",\n'
-        else:
-            lineStr=lineStr+'  "id": "",\n'
-        lineStr=lineStr+'  "aid": "0",\n'
-        if (len(data)>4):
-            lineStr=lineStr+'  "net": "'+data[4]+'",\n'
-        else:
-            lineStr=lineStr+'  "net": "",\n'
+        lineStr=lineStr+'  "ps": "ibmyes-'+str(t+1)+'",\n'
+        lineStr=lineStr+'  "add": "'+data[0]+'",\n'
+        lineStr=lineStr+'  "port": "443",\n'
+        lineStr=lineStr+'  "id": "ac9a9f82-4d88-44b0-8cbf-a53f79c02d19",\n'
+        lineStr=lineStr+'  "aid": "4",\n'
+        lineStr=lineStr+'  "net": "ws",\n'
         lineStr=lineStr+'  "type": "none",\n'
-        lineStr=lineStr+'  "host": "",\n'
-        if (len(data)>5):
-            lineStr=lineStr+'  "path": "'+data[5]+'",\n'
-        else:
-            lineStr=lineStr+'  "path": "",\n'
-        if (len(data)>6):
-            lineStr=lineStr+'  "tls": "'+data[6]+'"\n'
-        else:
-            lineStr=lineStr+'  "tls": ""\n'
+        lineStr=lineStr+'  "host": "throbbing-recipe-1f97.3158953.workers.dev",\n'
+        lineStr=lineStr+'  "path": "QMNAkopT4cERb3lj",\n'
+        lineStr=lineStr+'  "tls": "tls"\n'
         lineStr=lineStr+'}\n'
         
         lineStr64=lineStr64+'vmess://'+str(base64.b64encode(lineStr.encode("utf-8")), "utf-8")+'\n'
-#        print (lineStr64)
+        #print (lineStr64)
         t=t+1
 finally:
+
+
 
     links_file = 'Url_Vmess_links_{}.txt'.format(time.strftime('%Y-%m-%d_%H-%M-%S'))
     f = open(links_file,'w',encoding='UTF-8', errors='ignore')
@@ -85,6 +66,7 @@ finally:
     file_object.close()
     
     ToBase64(links_file,'Base64_'+links_file)
+    ToBase64(links_file,'base64_v2ray.txt')
     
     #发送邮件至指定邮箱
     import smtplib
