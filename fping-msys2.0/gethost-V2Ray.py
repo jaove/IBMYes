@@ -32,6 +32,7 @@ count = len(open('速度排名.txt','r',encoding='UTF-8', errors='ignore').readl
 file_object = open('速度排名.txt','r',encoding='UTF-8', errors='ignore')
 
 lineStr64=''
+lineStr64_other=''
 try: 
     for line in file_object:
 
