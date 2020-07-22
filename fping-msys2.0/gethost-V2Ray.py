@@ -1,6 +1,11 @@
 #!/usr/bin/python
 import base64
 import time
+import uuid
+
+print uuid.uuid1（）
+
+exit
 
 
 def ToBase64(file, txt):
