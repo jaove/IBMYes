@@ -8481,4 +8481,17 @@ cd ..
 cls
 choice /t 3 /d y /n >nul
 RD /S /Q temp
-start 速度排名.txt
+# start 速度排名.txt
+
+
+
+git pull
+
+python gethost-V2Ray.py
+
+git add .
+git commit -m "Daily Update !"
+git push
+
+@pause
+
