@@ -59,11 +59,12 @@ finally:
 
 
 
-    links_file = 'Url_Vmess_links_{}.txt'.format(time.strftime('%Y-%m-%d_%H-%M-%S'))
+#    links_file = 'Url_Vmess_links_{}.txt'.format(time.strftime('%Y-%m-%d_%H-%M-%S'))
+    links_file = 'Url_Vmess_links.txt'
     f = open(links_file,'w',encoding='UTF-8', errors='ignore')
     f.write(lineStr64)
     f.close()
     file_object.close()
     
-    ToBase64(links_file,'Base64_'+links_file)
+#    ToBase64(links_file,'Base64_'+links_file)
     ToBase64(links_file,'base64_v2ray.txt')
