@@ -51,13 +51,26 @@ try:
         lineStr=lineStr+'  "path": "QMNAkopT4cERb3lj",\n'
         lineStr=lineStr+'  "tls": "tls"\n'
         lineStr=lineStr+'}\n'
-        
+
+        lineStr_other='{\n'
+        lineStr_other=lineStr_other+'  "v": "2",\n'
+        lineStr_other=lineStr_other+'  "ps": "ibmyes-'+str(t+1)+'",\n'
+        lineStr_other=lineStr_other+'  "add": "'+data[0]+'",\n'
+        lineStr_other=lineStr_other+'  "port": "443",\n'
+        lineStr_other=lineStr_other+'  "id": "ac9a9f82-4d88-44b0-8cbf-a53f79c02d19",\n'
+        lineStr_other=lineStr_other+'  "aid": "4",\n'
+        lineStr_other=lineStr_other+'  "net": "ws",\n'
+        lineStr_other=lineStr_other+'  "type": "none",\n'
+        lineStr_other=lineStr_other+'  "host": "winter-flower-8af1.574167213.workers.dev",\n'
+        lineStr_other=lineStr_other+'  "path": "QMNAkopT4cERb3lj",\n'
+        lineStr_other=lineStr_other+'  "tls": "tls"\n'
+        lineStr_other=lineStr_other+'}\n'
+
         lineStr64=lineStr64+'vmess://'+str(base64.b64encode(lineStr.encode("utf-8")), "utf-8")+'\n'
+        lineStr64_other=lineStr64_other+'vmess://'+str(base64.b64encode(lineStr_other.encode("utf-8")), "utf-8")+'\n'
         #print (lineStr64)
         t=t+1
 finally:
-
-
 
 #    links_file = 'Url_Vmess_links_{}.txt'.format(time.strftime('%Y-%m-%d_%H-%M-%S'))
     links_file = 'Url_Vmess.txt'
@@ -66,5 +79,12 @@ finally:
     f.close()
     file_object.close()
     
+    links_file_other = 'Url_Vmess_other.txt'
+    f = open(links_file_other,'w',encoding='UTF-8', errors='ignore')
+    f.write(lineStr64_other)
+    f.close()
+    file_object.close()
+    
 #    ToBase64(links_file,'Base64_'+links_file)
     ToBase64(links_file,'base64_v2ray.txt')
+    ToBase64(links_file_other,'base64_v2ray_other.txt')
