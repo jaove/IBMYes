@@ -41,7 +41,7 @@ try:
         
         lineStr='{\n'
         lineStr=lineStr+'  "v": "2",\n'
-        lineStr=lineStr+'  "ps": "ibmyes-other'+str(t+1)+'",\n'
+        lineStr=lineStr+'  "ps": "ibmyes'+str(t+1)+'",\n'
         lineStr=lineStr+'  "add": "'+data[0]+'",\n'
         lineStr=lineStr+'  "port": "443",\n'
         lineStr=lineStr+'  "id": "ac9a9f82-4d88-44b0-8cbf-a53f79c02d19",\n'
@@ -55,7 +55,7 @@ try:
 
         lineStr_other='{\n'
         lineStr_other=lineStr_other+'  "v": "2",\n'
-        lineStr_other=lineStr_other+'  "ps": "ibmyes-'+str(t+1)+'",\n'
+        lineStr_other=lineStr_other+'  "ps": "ibmyes--other'+str(t+1)+'",\n'
         lineStr_other=lineStr_other+'  "add": "'+data[0]+'",\n'
         lineStr_other=lineStr_other+'  "port": "443",\n'
         lineStr_other=lineStr_other+'  "id": "ac9a9f82-4d88-44b0-8cbf-a53f79c02d19",\n'
@@ -69,7 +69,7 @@ try:
 
         lineStr64=lineStr64+'vmess://'+str(base64.b64encode(lineStr.encode("utf-8")), "utf-8")+'\n'
         lineStr64_other=lineStr64_other+'vmess://'+str(base64.b64encode(lineStr_other.encode("utf-8")), "utf-8")+'\n'
-        print (lineStr64_other)
+#        print (lineStr64_other)
         t=t+1
 finally:
 
