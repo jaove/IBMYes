@@ -8481,7 +8481,7 @@ cd ..
 cls
 choice /t 3 /d y /n >nul
 RD /S /Q temp
-# start 速度排名.txt
+rem start 速度排名.txt
 
 
 
