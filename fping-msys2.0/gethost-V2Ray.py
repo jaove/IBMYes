@@ -3,7 +3,7 @@ import base64
 import time
 import uuid
 
-print uuid.uuid1（）
+print uuid.uuid1()
 
 exit
 
