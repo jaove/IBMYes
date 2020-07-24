@@ -72,9 +72,11 @@ try:
         lineStr64=lineStr64+'vmess://'+str(base64.b64encode(lineStr.encode("utf-8")), "utf-8")+'\n'
         lineStr64_other=lineStr64_other+'vmess://'+str(base64.b64encode(lineStr_other.encode("utf-8")), "utf-8")+'\n'
 #        print (lineStr64_other)
-        t=t+1
+
+        #取速度最快的10个IP地址
         if (t>10):
             break
+        t=t+1
 finally:
 
 #    links_file = 'Url_Vmess_links_{}.txt'.format(time.strftime('%Y-%m-%d_%H-%M-%S'))
