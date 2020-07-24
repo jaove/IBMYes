@@ -27,7 +27,7 @@ def ToFile(txt, file):
 
 
 
-t=0
+t=1
 count = len(open('速度排名.txt','r',encoding='UTF-8', errors='ignore').readlines())
 # f = open('../gui-config.json','w')
 #f = open('Url_Vmess.txt','w',encoding='UTF-8', errors='ignore')
@@ -43,7 +43,7 @@ try:
         
         lineStr='{\n'
         lineStr=lineStr+'  "v": "2",\n'
-        lineStr=lineStr+'  "ps": "ibmyes-'+str(t+1)+'",\n'
+        lineStr=lineStr+'  "ps": "ibmyes-'+str(t)+'",\n'
         lineStr=lineStr+'  "add": "'+data[0]+'",\n'
         lineStr=lineStr+'  "port": "443",\n'
         lineStr=lineStr+'  "id": "ac9a9f82-4d88-44b0-8cbf-a53f79c02d19",\n'
@@ -57,7 +57,7 @@ try:
 
         lineStr_other='{\n'
         lineStr_other=lineStr_other+'  "v": "2",\n'
-        lineStr_other=lineStr_other+'  "ps": "ibmyes--other'+str(t+1)+'",\n'
+        lineStr_other=lineStr_other+'  "ps": "ibmyes--other'+str(t)+'",\n'
         lineStr_other=lineStr_other+'  "add": "'+data[0]+'",\n'
         lineStr_other=lineStr_other+'  "port": "443",\n'
         lineStr_other=lineStr_other+'  "id": "464389a2-fe40-4ac8-804a-8febe7b7eef3",\n'
