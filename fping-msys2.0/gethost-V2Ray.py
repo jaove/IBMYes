@@ -73,8 +73,8 @@ try:
         lineStr64_other=lineStr64_other+'vmess://'+str(base64.b64encode(lineStr_other.encode("utf-8")), "utf-8")+'\n'
 #        print (lineStr64_other)
 
-        #取速度最快的10个IP地址
-        if (t==10):
+        #取速度最快的20个IP地址
+        if (t==20):
             break
         t=t+1
 finally:
