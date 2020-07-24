@@ -74,7 +74,7 @@ try:
 #        print (lineStr64_other)
 
         #取速度最快的10个IP地址
-        if (t=10):
+        if (t==10):
             break
         t=t+1
 finally:
