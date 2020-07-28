@@ -35,7 +35,7 @@ cfw-latency-timeout: 5000
 Proxy:
 - name: ibmyes-1
   type: vmess
-  server: 104.16.175.194
+  server: 104.25.179.35
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -43,11 +43,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-2
   type: vmess
-  server: 104.20.114.188
+  server: 104.20.131.20
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -55,11 +53,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-3
   type: vmess
-  server: 104.16.128.115
+  server: 104.22.7.61
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -67,11 +63,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-4
   type: vmess
-  server: 104.20.92.84
+  server: 104.20.146.202
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -79,11 +73,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-5
   type: vmess
-  server: 104.16.103.111
+  server: 104.23.125.57
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -91,11 +83,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-6
   type: vmess
-  server: 104.16.177.172
+  server: 104.20.27.243
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -103,11 +93,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-7
   type: vmess
-  server: 104.16.21.37
+  server: 172.64.213.11
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -115,11 +103,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-8
   type: vmess
-  server: 104.16.91.176
+  server: 104.17.204.21
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -127,11 +113,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-9
   type: vmess
-  server: 104.22.12.196
+  server: 104.19.222.22
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -139,11 +123,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-10
   type: vmess
-  server: 104.16.232.235
+  server: 104.16.28.197
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -151,11 +133,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-11
   type: vmess
-  server: 104.16.207.115
+  server: 104.20.246.242
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -163,11 +143,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-12
   type: vmess
-  server: 104.16.198.35
+  server: 104.20.58.186
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -175,11 +153,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-13
   type: vmess
-  server: 104.16.121.35
+  server: 104.17.193.191
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -187,11 +163,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-14
   type: vmess
-  server: 104.16.251.168
+  server: 104.16.21.217
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -199,11 +173,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-15
   type: vmess
-  server: 104.16.237.201
+  server: 104.16.16.58
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -211,11 +183,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-16
   type: vmess
-  server: 104.16.184.221
+  server: 104.20.106.191
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -223,11 +193,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-17
   type: vmess
-  server: 104.16.134.156
+  server: 104.20.3.39
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -235,11 +203,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-18
   type: vmess
-  server: 104.16.166.17
+  server: 104.16.66.121
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -247,11 +213,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-19
   type: vmess
-  server: 104.16.11.18
+  server: 104.23.101.80
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -259,11 +223,9 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 - name: ibmyes-20
   type: vmess
-  server: 104.16.144.37
+  server: 104.20.32.217
   port: '443'
   uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19
   alterId: '4'
@@ -271,31 +233,49 @@ Proxy:
   tls: true
   network: ws
   ws-path: QMNAkopT4cERb3lj
-  ws-headers: ''
-  host: throbbing-recipe-1f97.3158953.workers.dev
 Proxy Group:
 - name: PROXY
   type: select
   proxies:
   - ibmyes-1
+  - ibmyes-1
+  - ibmyes-2
   - ibmyes-2
   - ibmyes-3
+  - ibmyes-3
+  - ibmyes-4
   - ibmyes-4
   - ibmyes-5
+  - ibmyes-5
+  - ibmyes-6
   - ibmyes-6
   - ibmyes-7
+  - ibmyes-7
+  - ibmyes-8
   - ibmyes-8
   - ibmyes-9
+  - ibmyes-9
+  - ibmyes-10
   - ibmyes-10
   - ibmyes-11
+  - ibmyes-11
+  - ibmyes-12
   - ibmyes-12
   - ibmyes-13
+  - ibmyes-13
+  - ibmyes-14
   - ibmyes-14
   - ibmyes-15
+  - ibmyes-15
+  - ibmyes-16
   - ibmyes-16
   - ibmyes-17
+  - ibmyes-17
+  - ibmyes-18
   - ibmyes-18
   - ibmyes-19
+  - ibmyes-19
+  - ibmyes-20
   - ibmyes-20
 - name: Final
   type: select
@@ -312,48 +292,88 @@ Proxy Group:
   proxies:
   - PROXY
   - ibmyes-1
+  - ibmyes-1
+  - ibmyes-2
   - ibmyes-2
   - ibmyes-3
+  - ibmyes-3
+  - ibmyes-4
   - ibmyes-4
   - ibmyes-5
+  - ibmyes-5
+  - ibmyes-6
   - ibmyes-6
   - ibmyes-7
+  - ibmyes-7
+  - ibmyes-8
   - ibmyes-8
   - ibmyes-9
+  - ibmyes-9
+  - ibmyes-10
   - ibmyes-10
   - ibmyes-11
+  - ibmyes-11
+  - ibmyes-12
   - ibmyes-12
   - ibmyes-13
+  - ibmyes-13
+  - ibmyes-14
   - ibmyes-14
   - ibmyes-15
+  - ibmyes-15
+  - ibmyes-16
   - ibmyes-16
   - ibmyes-17
+  - ibmyes-17
+  - ibmyes-18
   - ibmyes-18
   - ibmyes-19
+  - ibmyes-19
+  - ibmyes-20
   - ibmyes-20
 - name: HKMTMedia
   type: select
   proxies:
   - DIRECT
   - ibmyes-1
+  - ibmyes-1
+  - ibmyes-2
   - ibmyes-2
   - ibmyes-3
+  - ibmyes-3
+  - ibmyes-4
   - ibmyes-4
   - ibmyes-5
+  - ibmyes-5
+  - ibmyes-6
   - ibmyes-6
   - ibmyes-7
+  - ibmyes-7
+  - ibmyes-8
   - ibmyes-8
   - ibmyes-9
+  - ibmyes-9
+  - ibmyes-10
   - ibmyes-10
   - ibmyes-11
+  - ibmyes-11
+  - ibmyes-12
   - ibmyes-12
   - ibmyes-13
+  - ibmyes-13
+  - ibmyes-14
   - ibmyes-14
   - ibmyes-15
+  - ibmyes-15
+  - ibmyes-16
   - ibmyes-16
   - ibmyes-17
+  - ibmyes-17
+  - ibmyes-18
   - ibmyes-18
   - ibmyes-19
+  - ibmyes-19
+  - ibmyes-20
   - ibmyes-20
 - name: Hijacking
   type: select

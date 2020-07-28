@@ -67,8 +67,8 @@ def translate_proxy(arr):
             'cipher':item['type'],
             'tls':True if item['tls']=='tls' else None,
             'network':item['net'] if item['net'] and item['net']!= 'tcp' else None,
-            'ws-path':item['path'] if item['path'] else None,
-            'ws-headers':"",
+            'ws-path':item['path'] if item['path'] else None
+            'ws-headers': None
             'Host':item['host']
         }
         for key in list(obj.keys()):
@@ -76,6 +76,8 @@ def translate_proxy(arr):
                 del obj[key]
         proxies['proxy_list'].append(obj)
         proxies['proxy_names'].append(obj['name'])
+        proxies['proxy_names'].append(obj['name'])
+        
     return proxies
 def load_local_config(user_path):
     try:
