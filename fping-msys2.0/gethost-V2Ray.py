@@ -43,7 +43,7 @@ try:
         
         lineStr='{\n'
         lineStr=lineStr+'  "v": "2",\n'
-        lineStr=lineStr+'  "ps": "ibmyes-'+str(t)+'",\n'
+        lineStr=lineStr+'  "ps": "IBMYes-'+str(t)+'",\n'
         lineStr=lineStr+'  "add": "'+data[0]+'",\n'
         lineStr=lineStr+'  "port": "443",\n'
         lineStr=lineStr+'  "id": "ac9a9f82-4d88-44b0-8cbf-a53f79c02d19",\n'
@@ -57,7 +57,7 @@ try:
 
         lineStr_other='{\n'
         lineStr_other=lineStr_other+'  "v": "2",\n'
-        lineStr_other=lineStr_other+'  "ps": "ibmyes--other'+str(t)+'",\n'
+        lineStr_other=lineStr_other+'  "ps": "IBMYes--other'+str(t)+'",\n'
         lineStr_other=lineStr_other+'  "add": "'+data[0]+'",\n'
         lineStr_other=lineStr_other+'  "port": "443",\n'
         lineStr_other=lineStr_other+'  "id": "464389a2-fe40-4ac8-804a-8febe7b7eef3",\n'
@@ -95,3 +95,21 @@ finally:
 #    ToBase64(links_file,'Base64_'+links_file)
     ToBase64(links_file,'base64_v2ray.txt')
     ToBase64(links_file_other,'base64_v2ray_other.txt')
+
+    file1 = 'base64_v2ray_all.txt'
+    file2 = 'base64_v2ray.txt'
+    file3 = 'base64_v2ray_other.txt'
+
+    def merge(file1, file2, file3):
+        f1 = open(file1, 'w', encoding='utf-8')
+        with open(file2, 'r', encoding='utf-8') as f2:
+#            f1.write('\n')
+            for i in f2:
+                f1.write(i)
+        with open(file3, 'r', encoding='utf-8') as f3:
+            f1.write('\n')
+            for i in f3:
+                f1.write(i)
+                
+    merge(file1, file2, file3)
+
