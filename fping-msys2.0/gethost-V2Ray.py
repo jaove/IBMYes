@@ -107,7 +107,7 @@ finally:
             for i in f2:
                 f1.write(i)
         with open(file3, 'r', encoding='utf-8') as f3:
-            f1.write('\n')
+#            f1.write('\n')
             for i in f3:
                 f1.write(i)
                 
