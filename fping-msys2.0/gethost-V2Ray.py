@@ -98,7 +98,7 @@ finally:
     ToBase64(links_file,'base64_v2ray.txt')
     ToBase64(links_file_other,'base64_v2ray_other.txt')
 
-    file1 = 'Url_Vmess_all.txt.txt'
+    file1 = 'Url_Vmess_all.txt'
     file2 = 'Url_Vmess.txt'
     file3 = 'Url_Vmess_other.txt'
 
