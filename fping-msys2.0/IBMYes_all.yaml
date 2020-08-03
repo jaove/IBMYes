@@ -5,46 +5,26 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇲🇾 IBMYes-1, server: 104.17.142.151, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-2, server: 104.20.188.142, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-3, server: 104.16.217.253, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-4, server: 104.19.74.201, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-5, server: 104.31.94.248, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-6, server: 104.25.148.37, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-7, server: 104.20.65.218, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-8, server: 104.24.69.183, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-9, server: 104.19.97.104, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-10, server: 104.28.57.175, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-11, server: 104.31.131.203, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-12, server: 104.31.90.133, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-13, server: 104.25.238.44, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-14, server: 104.24.53.230, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-15, server: 104.20.78.82, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-16, server: 104.19.209.201, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-17, server: 104.18.34.195, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-18, server: 172.64.131.66, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-19, server: 104.31.13.16, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes-20, server: 104.31.10.211, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other1, server: 104.17.142.151, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other2, server: 104.20.188.142, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other3, server: 104.16.217.253, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other4, server: 104.19.74.201, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other5, server: 104.31.94.248, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other6, server: 104.25.148.37, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other7, server: 104.20.65.218, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other8, server: 104.24.69.183, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other9, server: 104.19.97.104, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other10, server: 104.28.57.175, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other11, server: 104.31.131.203, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other12, server: 104.31.90.133, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other13, server: 104.25.238.44, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other14, server: 104.24.53.230, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other15, server: 104.20.78.82, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other16, server: 104.19.209.201, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other17, server: 104.18.34.195, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other18, server: 172.64.131.66, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other19, server: 104.31.13.16, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
-  - {name: 🇲🇾 IBMYes--other20, server: 104.31.10.211, port: 443, type: vmess, uuid: 464389a2-fe40-4ac8-804a-8febe7b7eef3, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: Vun5ALcCp8Q27TUr, ws-headers: {Host: winter-flower-8af1.574167213.workers.dev}}
+  - {name: 🇲🇾 IBMYes-1, server: 104.17.238.135, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-2, server: 172.64.111.164, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-3, server: 162.159.130.111, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-4, server: 104.31.164.249, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-5, server: 104.31.166.203, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-6, server: 104.18.250.50, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-7, server: 104.24.54.32, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-8, server: 104.20.209.112, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-9, server: 104.25.117.51, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-10, server: 172.64.139.239, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-11, server: 104.18.76.3, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-12, server: 104.18.34.247, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-13, server: 104.17.73.127, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-14, server: 104.19.144.66, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-15, server: 104.18.131.35, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-16, server: 172.64.128.157, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-17, server: 104.31.181.45, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-18, server: 104.17.115.79, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-19, server: 104.18.207.227, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
+  - {name: 🇲🇾 IBMYes-20, server: 104.28.128.229, port: 443, type: vmess, uuid: ac9a9f82-4d88-44b0-8cbf-a53f79c02d19, alterId: 4, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: QMNAkopT4cERb3lj, ws-headers: {Host: throbbing-recipe-1f97.3158953.workers.dev}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -71,26 +51,6 @@ proxy-groups:
       - 🇲🇾 IBMYes-18
       - 🇲🇾 IBMYes-19
       - 🇲🇾 IBMYes-20
-      - 🇲🇾 IBMYes--other1
-      - 🇲🇾 IBMYes--other2
-      - 🇲🇾 IBMYes--other3
-      - 🇲🇾 IBMYes--other4
-      - 🇲🇾 IBMYes--other5
-      - 🇲🇾 IBMYes--other6
-      - 🇲🇾 IBMYes--other7
-      - 🇲🇾 IBMYes--other8
-      - 🇲🇾 IBMYes--other9
-      - 🇲🇾 IBMYes--other10
-      - 🇲🇾 IBMYes--other11
-      - 🇲🇾 IBMYes--other12
-      - 🇲🇾 IBMYes--other13
-      - 🇲🇾 IBMYes--other14
-      - 🇲🇾 IBMYes--other15
-      - 🇲🇾 IBMYes--other16
-      - 🇲🇾 IBMYes--other17
-      - 🇲🇾 IBMYes--other18
-      - 🇲🇾 IBMYes--other19
-      - 🇲🇾 IBMYes--other20
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -116,26 +76,6 @@ proxy-groups:
       - 🇲🇾 IBMYes-18
       - 🇲🇾 IBMYes-19
       - 🇲🇾 IBMYes-20
-      - 🇲🇾 IBMYes--other1
-      - 🇲🇾 IBMYes--other2
-      - 🇲🇾 IBMYes--other3
-      - 🇲🇾 IBMYes--other4
-      - 🇲🇾 IBMYes--other5
-      - 🇲🇾 IBMYes--other6
-      - 🇲🇾 IBMYes--other7
-      - 🇲🇾 IBMYes--other8
-      - 🇲🇾 IBMYes--other9
-      - 🇲🇾 IBMYes--other10
-      - 🇲🇾 IBMYes--other11
-      - 🇲🇾 IBMYes--other12
-      - 🇲🇾 IBMYes--other13
-      - 🇲🇾 IBMYes--other14
-      - 🇲🇾 IBMYes--other15
-      - 🇲🇾 IBMYes--other16
-      - 🇲🇾 IBMYes--other17
-      - 🇲🇾 IBMYes--other18
-      - 🇲🇾 IBMYes--other19
-      - 🇲🇾 IBMYes--other20
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -162,26 +102,6 @@ proxy-groups:
       - 🇲🇾 IBMYes-18
       - 🇲🇾 IBMYes-19
       - 🇲🇾 IBMYes-20
-      - 🇲🇾 IBMYes--other1
-      - 🇲🇾 IBMYes--other2
-      - 🇲🇾 IBMYes--other3
-      - 🇲🇾 IBMYes--other4
-      - 🇲🇾 IBMYes--other5
-      - 🇲🇾 IBMYes--other6
-      - 🇲🇾 IBMYes--other7
-      - 🇲🇾 IBMYes--other8
-      - 🇲🇾 IBMYes--other9
-      - 🇲🇾 IBMYes--other10
-      - 🇲🇾 IBMYes--other11
-      - 🇲🇾 IBMYes--other12
-      - 🇲🇾 IBMYes--other13
-      - 🇲🇾 IBMYes--other14
-      - 🇲🇾 IBMYes--other15
-      - 🇲🇾 IBMYes--other16
-      - 🇲🇾 IBMYes--other17
-      - 🇲🇾 IBMYes--other18
-      - 🇲🇾 IBMYes--other19
-      - 🇲🇾 IBMYes--other20
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -212,26 +132,6 @@ proxy-groups:
       - 🇲🇾 IBMYes-18
       - 🇲🇾 IBMYes-19
       - 🇲🇾 IBMYes-20
-      - 🇲🇾 IBMYes--other1
-      - 🇲🇾 IBMYes--other2
-      - 🇲🇾 IBMYes--other3
-      - 🇲🇾 IBMYes--other4
-      - 🇲🇾 IBMYes--other5
-      - 🇲🇾 IBMYes--other6
-      - 🇲🇾 IBMYes--other7
-      - 🇲🇾 IBMYes--other8
-      - 🇲🇾 IBMYes--other9
-      - 🇲🇾 IBMYes--other10
-      - 🇲🇾 IBMYes--other11
-      - 🇲🇾 IBMYes--other12
-      - 🇲🇾 IBMYes--other13
-      - 🇲🇾 IBMYes--other14
-      - 🇲🇾 IBMYes--other15
-      - 🇲🇾 IBMYes--other16
-      - 🇲🇾 IBMYes--other17
-      - 🇲🇾 IBMYes--other18
-      - 🇲🇾 IBMYes--other19
-      - 🇲🇾 IBMYes--other20
   - name: 📲 电报信息
     type: select
     proxies:
@@ -257,26 +157,6 @@ proxy-groups:
       - 🇲🇾 IBMYes-18
       - 🇲🇾 IBMYes-19
       - 🇲🇾 IBMYes-20
-      - 🇲🇾 IBMYes--other1
-      - 🇲🇾 IBMYes--other2
-      - 🇲🇾 IBMYes--other3
-      - 🇲🇾 IBMYes--other4
-      - 🇲🇾 IBMYes--other5
-      - 🇲🇾 IBMYes--other6
-      - 🇲🇾 IBMYes--other7
-      - 🇲🇾 IBMYes--other8
-      - 🇲🇾 IBMYes--other9
-      - 🇲🇾 IBMYes--other10
-      - 🇲🇾 IBMYes--other11
-      - 🇲🇾 IBMYes--other12
-      - 🇲🇾 IBMYes--other13
-      - 🇲🇾 IBMYes--other14
-      - 🇲🇾 IBMYes--other15
-      - 🇲🇾 IBMYes--other16
-      - 🇲🇾 IBMYes--other17
-      - 🇲🇾 IBMYes--other18
-      - 🇲🇾 IBMYes--other19
-      - 🇲🇾 IBMYes--other20
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -303,26 +183,6 @@ proxy-groups:
       - 🇲🇾 IBMYes-18
       - 🇲🇾 IBMYes-19
       - 🇲🇾 IBMYes-20
-      - 🇲🇾 IBMYes--other1
-      - 🇲🇾 IBMYes--other2
-      - 🇲🇾 IBMYes--other3
-      - 🇲🇾 IBMYes--other4
-      - 🇲🇾 IBMYes--other5
-      - 🇲🇾 IBMYes--other6
-      - 🇲🇾 IBMYes--other7
-      - 🇲🇾 IBMYes--other8
-      - 🇲🇾 IBMYes--other9
-      - 🇲🇾 IBMYes--other10
-      - 🇲🇾 IBMYes--other11
-      - 🇲🇾 IBMYes--other12
-      - 🇲🇾 IBMYes--other13
-      - 🇲🇾 IBMYes--other14
-      - 🇲🇾 IBMYes--other15
-      - 🇲🇾 IBMYes--other16
-      - 🇲🇾 IBMYes--other17
-      - 🇲🇾 IBMYes--other18
-      - 🇲🇾 IBMYes--other19
-      - 🇲🇾 IBMYes--other20
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -358,26 +218,6 @@ proxy-groups:
       - 🇲🇾 IBMYes-18
       - 🇲🇾 IBMYes-19
       - 🇲🇾 IBMYes-20
-      - 🇲🇾 IBMYes--other1
-      - 🇲🇾 IBMYes--other2
-      - 🇲🇾 IBMYes--other3
-      - 🇲🇾 IBMYes--other4
-      - 🇲🇾 IBMYes--other5
-      - 🇲🇾 IBMYes--other6
-      - 🇲🇾 IBMYes--other7
-      - 🇲🇾 IBMYes--other8
-      - 🇲🇾 IBMYes--other9
-      - 🇲🇾 IBMYes--other10
-      - 🇲🇾 IBMYes--other11
-      - 🇲🇾 IBMYes--other12
-      - 🇲🇾 IBMYes--other13
-      - 🇲🇾 IBMYes--other14
-      - 🇲🇾 IBMYes--other15
-      - 🇲🇾 IBMYes--other16
-      - 🇲🇾 IBMYes--other17
-      - 🇲🇾 IBMYes--other18
-      - 🇲🇾 IBMYes--other19
-      - 🇲🇾 IBMYes--other20
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
