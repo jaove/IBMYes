@@ -114,12 +114,12 @@ finally:
     merge(file1, file2, file3)
 
 
-url1="http://192.168.100.1:25500/sub?target=clash&new_name=true&url=https%3A%2F%2Fzhuwei.netlify.com%2Fbase64_v2ray_all.txt&insert=false&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false"
-with urllib.request.urlopen(url1) as url:
-    s = url.read()
+#url1="http://192.168.100.1:25500/sub?target=clash&new_name=true&url=https%3A%2F%2Fzhuwei.netlify.com%2Fbase64_v2ray_all.txt&insert=false&emoji=true&list=false&udp=false&tfo=false&scv=false&fdn=false&sort=false"
+#with urllib.request.urlopen(url1) as url:
+#    s = url.read()
 
-clashfile="IBMYes_all.yaml"
-f = open(clashfile,'wb')
-f.write(s)
-f.close()
+#clashfile="IBMYes_all.yaml"
+#f = open(clashfile,'wb')
+#f.write(s)
+#f.close()
 
