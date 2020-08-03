@@ -2,7 +2,8 @@
 import base64
 import time
 import uuid
-import requests
+import urllib.request
+
 
 #print(uuid.uuid1())
 
