@@ -5,13 +5,13 @@ del ip.txt
 RD /S /Q temp
 cls
 set num=100
-set /p num=请设置 PING 循环次数【默认：%num%次】:
+rem set /p num=请设置 PING 循环次数【默认：%num%次】:
 set interval=0
-set /p interval=请设置 PING 间歇时间【默认：%interval%毫秒】:
+rem set /p interval=请设置 PING 间歇时间【默认：%interval%毫秒】:
 set sleep=500
 set maxtime=10
-set /p sleep=进程间隔【默认：%sleep%毫秒】:
-set /p maxtime=单进程执行时间【默认：%maxtime%】秒:
+rem set /p sleep=进程间隔【默认：%sleep%毫秒】:
+rem set /p maxtime=单进程执行时间【默认：%maxtime%】秒:
 del ip.txt
 cls
 set /a ip=%random%%%255
