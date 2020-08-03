@@ -98,9 +98,9 @@ finally:
     ToBase64(links_file,'base64_v2ray.txt')
     ToBase64(links_file_other,'base64_v2ray_other.txt')
 
-    file1 = 'base64_v2ray_all.txt'
-    file2 = 'base64_v2ray.txt'
-    file3 = 'base64_v2ray_other.txt'
+    file1 = 'Url_Vmess_all.txt.txt'
+    file2 = 'Url_Vmess.txt'
+    file3 = 'Url_Vmess_other.txt'
 
     def merge(file1, file2, file3):
         f1 = open(file1, 'w', encoding='utf-8')
