@@ -40,12 +40,15 @@ lineStr64_other=''
 try: 
     for line in file_object:
 
+        numofproxy = str(t).zfill(2)
+
+
         line=line.strip('\n')
         data=line.split('\t')
         
         lineStr='{\n'
         lineStr=lineStr+'  "v": "2",\n'
-        lineStr=lineStr+'  "ps": "IBMYes-'+str(t)+'",\n'
+        lineStr=lineStr+'  "ps": "IBMYes-'+numofproxy+'",\n'
         lineStr=lineStr+'  "add": "'+data[0]+'",\n'
         lineStr=lineStr+'  "port": "443",\n'
         lineStr=lineStr+'  "id": "ac9a9f82-4d88-44b0-8cbf-a53f79c02d19",\n'
@@ -59,7 +62,7 @@ try:
 
         lineStr_other='{\n'
         lineStr_other=lineStr_other+'  "v": "2",\n'
-        lineStr_other=lineStr_other+'  "ps": "IBMYes--other'+str(t)+'",\n'
+        lineStr_other=lineStr_other+'  "ps": "IBMYes-other-'+numofproxy+'",\n'
         lineStr_other=lineStr_other+'  "add": "'+data[0]+'",\n'
         lineStr_other=lineStr_other+'  "port": "443",\n'
         lineStr_other=lineStr_other+'  "id": "464389a2-fe40-4ac8-804a-8febe7b7eef3",\n'
